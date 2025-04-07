@@ -1,0 +1,233 @@
+body {
+	font-family: "Figtree", sans-serif;
+}
+
+#logotipo img {
+	height: auto;
+	width: 180px;
+	display: block;
+}
+
+ #menu nav ul {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	gap: 1rem;
+}
+
+#menu li a {
+	color: #3f695b;
+	text-decoration: none;
+}
+
+#menu li a:hover {
+	color: #6b4024;
+}
+
+#subtitulo {
+	font-size: 18px;
+	margin-bottom: 50px;
+}
+
+button {
+	font-size: 16px;
+	align-self: flex-end;
+	padding: 12px;
+	border: none;
+	background-color: #3f695b;
+	color: white;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+button:hover {
+	background-color: #6b4024;
+	transform: translateY(-2px);
+}
+
+header {
+	display: flex;
+	flex-wrap: nowrap;
+	padding: 1rem;
+	align-items: center;
+	justify-content: space-between;
+	min-height: 50px;
+}
+
+#banner {
+	width: 100%;
+	height: 500px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	position: relative;
+	background: linear-gradient(to top, rgba(0,0,2.5,5), rgba(0,0,0,0)), url('../images/banner.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#conteudo-banner {
+	font-size: 28px;
+	width: 100%;
+	padding-bottom: 18px;
+  	color: white;
+  	text-align: center;
+}
+
+#icones img {
+	height: auto;
+	width: 50px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+#icones {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 2rem;
+	margin-top: 20px;
+	padding: 1rem;
+	color: #3f695b;
+}
+
+#icones p {
+	padding: 0;
+	margin: 0;
+}
+
+#icones > div {
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	width: 300px;
+	align-items: center;
+	text-align: center;
+}
+
+#icones p:first-of-type {
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+}
+
+#espresso {
+	display: flex;
+	flex-wrap: wrap;
+	color: #3f695b;
+	padding: 30px;
+	margin: auto;
+	justify-content: center;
+}
+
+#texto-espresso {
+	margin: 20px;
+	height: auto;
+	width: 400px;
+	word-wrap: break-word;
+}
+
+#primeiro-paragrafo {
+	font-size: 18px;
+	margin-bottom: 0;
+}
+
+#segundo-paragrafo {
+	font-size: 48px;
+	font-weight: bold;
+	margin-top: 2px;
+	margin-bottom: 0;
+	line-height: 3rem;
+}
+
+#terceiro-paragrafo {
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+#texto-espresso li a {
+	color: #3f695b;
+	text-decoration: none;
+}
+
+#texto-espresso li a:hover {
+	color: #6b4024;
+}
+
+#texto-espresso nav ul {
+	display: flex;
+	gap: 2rem;
+}
+
+#produtos {
+	width: 100%;
+	height: 250px;
+	display: flex;
+	justify-content: center;
+}
+
+#conteudo-produtos {
+	font-size: 28px;
+	width: 1100px;
+	height: 250px;
+  	color: white;
+	background: linear-gradient(to top, rgba(0,0,2.5,5), rgba(0,0,0,0)), url('../images/graos.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#conteudo-produtos button {
+	align-self: center;
+}
+
+#cardapio {
+	text-align: center;
+	padding-top: 100px;
+}
+
+#conteudo-cardapio {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+}
+
+.item-cardapio {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 250px;
+}
+
+.item-cardapio img {
+	width: 200px;
+	height: auto;
+	margin-bottom: 10px;
+	margin-top: 15px;
+	border-radius: 10px;
+}
+
+.item-cardapio hr {
+	width: 80%;
+	margin: 10px auto;
+}
+
+.item-cardapio p:last-of-type {
+	margin-top: 0;
+	line-height: 0.1rem;
+}
+
+.item-cardapio p:nth-last-child(2) {
+	margin-bottom: 5px;
+}
